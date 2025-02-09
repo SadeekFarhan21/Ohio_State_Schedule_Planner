@@ -68,7 +68,7 @@ def main():
         if response.status_code == 200:
             st.text(response.text)
         else:
-            st.write(f"Failed to retrieve content from {url}")
+            st.write(f"There are no available courses for {subject} in {year} {season}.")
 
 if __name__ == "__main__":
     main()
