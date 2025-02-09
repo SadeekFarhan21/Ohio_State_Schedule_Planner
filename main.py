@@ -1,6 +1,5 @@
 import streamlit as st
 import requests
-from bs4 import BeautifulSoup
 from datetime import datetime
 import os
 from dotenv import load_dotenv
